@@ -1,0 +1,16 @@
+# RetroAchievements login - EXAMPLE / TEMPLATE ONLY.
+#
+# This file ships blank on purpose: the Recomp RA Installer never
+# embeds anyone's login. To make a master copy:
+#   1. Copy this file to "retroachievements.toml" somewhere safe
+#      (NOT inside the tool folder - keep your master separate).
+#   2. Get your API token: log in at retroachievements.org, go to
+#      Settings -> API Token, and copy it. (Use the token, NEVER
+#      your password. The token can be revoked anytime from the
+#      same page.)
+#   3. Fill in your username and token below, save, then point the
+#      tool at that file as its master.
+
+username = "YourUsername"
+api_token = "YOUR_TOKEN_HERE"
+hardcore = false
